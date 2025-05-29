@@ -105,7 +105,7 @@ export default function Record() {
                 htmlFor="name"
                 className="block text-sm font-medium leading-6 text-slate-900"
               >
-                Name
+                Company Name
               </label>
               <div className="mt-2">
                 <div className="flex rounded-md shadow-sm ring-1 ring-inset ring-slate-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 sm:max-w-md">
@@ -126,7 +126,7 @@ export default function Record() {
                 htmlFor="position"
                 className="block text-sm font-medium leading-6 text-slate-900"
               >
-                Position
+                Role
               </label>
               <div className="mt-2">
                 <div className="flex rounded-md shadow-sm ring-1 ring-inset ring-slate-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 sm:max-w-md">
@@ -160,7 +160,7 @@ export default function Record() {
                       htmlFor="positionIntern"
                       className="ml-3 block text-sm font-medium leading-6 text-slate-900 mr-4"
                     >
-                      Intern
+                      Applied
                     </label>
                     <input
                       id="positionJunior"
@@ -175,7 +175,7 @@ export default function Record() {
                       htmlFor="positionJunior"
                       className="ml-3 block text-sm font-medium leading-6 text-slate-900 mr-4"
                     >
-                      Junior
+                      Accepted
                     </label>
                     <input
                       id="positionSenior"
@@ -190,7 +190,7 @@ export default function Record() {
                       htmlFor="positionSenior"
                       className="ml-3 block text-sm font-medium leading-6 text-slate-900 mr-4"
                     >
-                      Senior
+                      Rejected
                     </label>
                   </div>
                 </div>
